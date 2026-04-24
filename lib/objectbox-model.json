@@ -1,0 +1,78 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:6352026404563289542",
+      "lastPropertyId": "6:6726266706361413268",
+      "name": "Song",
+      "properties": [
+        {
+          "id": "1:867514764200632052",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:9125541283951645533",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:2338415053329665601",
+          "name": "artist",
+          "type": 9
+        },
+        {
+          "id": "4:4984755203969442034",
+          "name": "filePath",
+          "type": 9
+        },
+        {
+          "id": "5:4763568611411530397",
+          "name": "durationMs",
+          "type": 6
+        },
+        {
+          "id": "6:6726266706361413268",
+          "name": "albumArt",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:6442055651708980920",
+      "lastPropertyId": "2:3420557967432529746",
+      "name": "ExcludedFolder",
+      "properties": [
+        {
+          "id": "1:7133816988916711076",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3420557967432529746",
+          "name": "path",
+          "indexId": "1:3489670926929909358",
+          "type": 9,
+          "flags": 2048
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:6442055651708980920",
+  "lastIndexId": "1:3489670926929909358",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

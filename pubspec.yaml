@@ -1,0 +1,43 @@
+name: music_player
+description: "A simple music player app"
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  just_audio: ^0.10.5
+  audio_service: ^0.18.18
+  audio_session: ^0.2.3
+  rxdart: ^0.28.0
+  objectbox: ^5.3.1
+  objectbox_flutter_libs: ^5.3.1
+  file_picker: ^11.0.2
+  permission_handler: ^12.0.1
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  home_widget: ^0.9.1
+  shared_preferences: ^2.5.5
+  app_links: ^6.3.3
+  audiotags: ^1.2.0
+  crypto: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.14.0
+  objectbox_generator: ^5.3.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
